@@ -6,7 +6,11 @@
 }
 
 .border {
-    border: 2px dotted black;
+    border: 2px dashed black;
+}
+
+section.gray {
+    background-color: #D3D3D3;
 }
 
 /* Header */
@@ -65,7 +69,7 @@ header {
 /* 60-40 */
 .container-sixtyforty {
     background-color: #fff;
-    height: 500px;
+    height: 450px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -88,6 +92,16 @@ header {
     width: 40%;
 }
 
-.gray {
-    background-color: #D3D3D3;
+/* Big Green Square */
+.big-green {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-box {
+    background-color: #228B22;
+    width: 60%;
+    height: 90%;
 }
