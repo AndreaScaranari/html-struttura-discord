@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ADD8E6;
+}
+
+#header {
+    height: 60px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header > * {
+    border: 1px dashed black;
+    background-color: goldenrod;
+    padding: 10px;
+}
+
+.header-logo {
+    flex-grow: 1;
+}
+
+.header-links {
+    flex-grow: 2;
+    text-align: center;
+}
+
+.header-links > a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-login {
+    flex-grow: 1;
+}
