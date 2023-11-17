@@ -105,3 +105,31 @@ header {
     width: 60%;
     height: 90%;
 }
+
+/* Links-Area */
+.links-area {
+    background-color: #23272A;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.links-area-box {
+    width: 60%;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.lab-bigcolumn {
+    background-color: #F08080;
+    width: 30%;
+}
+
+.lab-smallcolumn {
+    background-color: #20B2AA;
+    width: calc(70%/4);
+    border-color: white;
+}
+
