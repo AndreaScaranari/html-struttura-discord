@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 
-.onedb {
-    border: 1px dashed black;
+.border {
+    border: 2px dotted black;
 }
 
 /* Header */
@@ -62,3 +62,32 @@ header {
     height: 80%;
 }
 
+/* 60-40 */
+.container-sixtyforty {
+    background-color: #fff;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixtyforty {
+    height: 80%;
+    width: 60%;
+    display: flex;
+}
+
+.sixty {
+    background-color: #1E90FF;
+    width: 60%;
+}
+
+.forty {
+    background-color: #FFC0CB;
+    width: 40%;
+}
+
+.gray {
+    background-color: #D3D3D3;
+}
