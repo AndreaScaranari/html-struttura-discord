@@ -1,9 +1,15 @@
+/* Utils */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.onedb {
+    border: 1px dashed black;
+}
+
+/* Header */
 header {
     background-color: #ADD8E6;
 }
@@ -19,7 +25,6 @@ header {
 }
 
 #header > * {
-    border: 1px dashed black;
     background-color: goldenrod;
     padding: 10px;
 }
@@ -41,3 +46,19 @@ header {
 .header-login {
     flex-grow: 1;
 }
+
+/* Hero */
+.hero {
+    background-color: #00008B;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-box {
+    background-color: #EE82EE;
+    width: 40%;
+    height: 80%;
+}
+
